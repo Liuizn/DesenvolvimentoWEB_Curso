@@ -37,21 +37,19 @@ body {
 .posts {
     width: 75%; /*550px -> 76%*/
     float: left;
-    border: 1px solid red;
 }
 
 img.img-noticia {
     width: 94%;
     padding: 2%;
-    border: 1px solid red;
+
 }
 
 .posts-secundarios {
     width: 22%; /*160px -> 22%*/
     float: right;
     background: rgb(236, 232, 232);
-    border: 1px solid red;
-    
+
 }
 
 .posts h2 {
