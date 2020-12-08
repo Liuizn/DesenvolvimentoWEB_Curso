@@ -1,0 +1,27 @@
+/*Seletor universal*/
+* {
+border: solid red 1px;
+}
+
+/*Seletor de texto*/
+
+h1 {
+color: green;
+}
+
+/*Seletor de Classe*/
+
+.verde {
+color: green;
+}
+
+p.verde {
+background-color: green;
+color: white;
+}
+
+/*Seletor de filho*/
+li>a {
+color: red;
+
+}
