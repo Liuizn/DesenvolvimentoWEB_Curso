@@ -4,10 +4,12 @@ body {
 }
 
 #container {
-    border: 1px solid red;
-    width: 85%;
+    width: 85%;/*900px*/
     margin: 0 auto;
     background: #ffffff;
+    min-width: 900px;
+    /*max-width: 1000px;*/
+
 }
 
 #logo {
@@ -19,15 +21,31 @@ body {
 }
 
 #conteudo {
-    border: 10px solid blue
+ 
     float: right;
-    width: 730px;
+    width: 82%; /*730px -> 83*/
+}
+
+#navegacao {
+    float: left;
+    width: 16%; /*150px -> 17%*/
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background:rgb(236, 232, 232);
 }
 
 .posts {
-    width: 550px;
+    width: 75%; /*550px -> 76%*/
     float: left;
     margin-bottom: 10px;
+    border: 1px solid red;
+}
+
+.posts-secundarios {
+    width: 22%; /*160px -> 22%*/
+    float: right;
+    background: rgb(236, 232, 232);
+    border: 1px solid red;
 }
 
 .posts h2 {
@@ -39,11 +57,7 @@ body {
     margin: 10px;
 }
 
-.posts-secundarios {
-    width: 160px;
-    float: right;
-    background: rgb(236, 232, 232);
-}
+
 
 .posts-secundarios h3 {
     text-align: center;
@@ -57,13 +71,7 @@ body {
     text-decoration: none;
 }
 
-#navegacao {
-    float: left;
-    width: 150px;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    background:rgb(236, 232, 232);
-}
+
 
 #rodape {
     clear: both;
