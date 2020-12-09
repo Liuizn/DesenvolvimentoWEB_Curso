@@ -14,10 +14,10 @@ body {
 
 #logo {
     width: 100%;
-    height: 150px;
-    background: rgb(126, 123, 123);
-    text-align: center;
-    line-height: 150px;
+    height: 350px;
+    background: rgb(126, 123, 123) url(/CSS_3-Intermediario_Avancado/aula_60/pictures/cabecalho.jpg) no-repeat center;
+    
+    line-height: 350px;
 }
 
 #conteudo {
@@ -37,13 +37,21 @@ body {
 .posts {
     width: 75%; /*550px -> 76%*/
     float: left;
-    margin-bottom: 10px;
+    border: 1px solid red;
+}
+
+img.img-noticia {
+    width: 94%;
+    padding: 2%;
+    border: 1px solid red;
 }
 
 .posts-secundarios {
     width: 22%; /*160px -> 22%*/
     float: right;
     background: rgb(236, 232, 232);
+    border: 1px solid red;
+    
 }
 
 .posts h2 {
@@ -69,7 +77,11 @@ body {
     text-decoration: none;
 }
 
-
+.posts-secundarios p {
+    text-align: justify;
+    padding: 5px;
+    margin: 5px;
+}
 
 #rodape {
     clear: both;
@@ -84,5 +96,11 @@ body {
 #navegacao li a {
     text-decoration: none;
 }
-
+/*
+ #imagem {
+     width: 90%;
+     border: 1px solid red;
+     overflow: hidden;
+ }
+ */
 
