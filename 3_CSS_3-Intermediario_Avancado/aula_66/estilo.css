@@ -1,0 +1,25 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.caixa {
+    width: 400px;
+    background: #dedede url(pictures/fundo-arredondamento.png) repeat-y;
+}
+
+.caixa h2 {
+    background: url(pictures/topo2.png ) no-repeat left top;
+    padding: 10px 20px 0 20px;
+    text-align: center;
+}
+
+.caixa p {
+    padding: 0 20px;
+    border: 1px solid red;
+    margin-bottom: 0;
+}
+
+.caixa .ultimo {
+    background: url(pictures/baixo2.png) no-repeat left bottom;
+    padding-bottom: 10px;
+}
