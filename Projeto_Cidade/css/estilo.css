@@ -1,0 +1,125 @@
+/*Estrutura do site*/
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Trebuchet MS', Helvetica, sans-serif;
+    background: #fff url(/Projeto_Cidade/pictures/fundo.png) repeat-x;
+}
+
+#principal {
+    width: 750px;
+    margin: 0 auto;
+}
+
+#topo { /*Formatando cabeçalho*/
+    height: 150px;
+    background: url(/Projeto_Cidade/pictures/detalhe-topo.png) no-repeat right top;
+    padding-top: 20px;
+    /*border: 1px solid red;*/
+}
+
+.logo { /*Formatando a logo*/
+    width: 152px;
+    height: 66px;
+    background: url(/Projeto_Cidade/pictures/logo.png) no-repeat center;
+}
+
+ul { /*Formatando todas as listas*/
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+/*Formatando a lista da navegação*/
+#topo ul { 
+    background: #b10333;
+    margin-top: 30px;
+    float: left;
+    border-radius: 15px;
+}
+
+#topo ul li {
+    float: left;
+}
+
+#topo ul a {
+    font-size: 0.9em;
+    display: block;
+    padding: 0.8em 1.3em;
+    line-height: 1em;
+    text-decoration: none;
+    color: #fff;
+    background: url(/Projeto_Cidade/pictures/divisor.png) no-repeat left;
+}
+
+#topo ul .primeiro a {
+    background: none;
+}
+
+#topo ul a:hover {
+    color: #69100d;
+}
+
+body.home #nav a#home,
+body.brasil #nav a#brasil,
+body.inter #nav a#inter,
+body.esconomia #nav a#economia,
+body.saude #nav a#saude,
+body.ciencia #nav a#ciencia,
+body.fotos #nav a#fotos {
+    color: #fff;
+    background: #de003e;
+    cursor: text;
+    border-radius: 15px;
+}
+
+/*Layout 3 colunas*/
+
+#conteudo {
+    margin-top:70px;
+    background: #f5f5f5;
+}
+
+#primario {
+    width: 270px;
+    background: yellow;
+    margin: 0 0 20px 195px ;
+    float: left;
+}
+
+#secundario {
+    width: 270px;
+    background: green;
+    margin: 0 0 20px 15px;
+    float: left;
+}
+
+#lateral {
+    width: 180px;
+    background: red;
+    float: left;
+    margin: 0 0 20px -750px;
+}
+
+
+
+
+
+
+/*Rodapé*/
+
+#container-rodape {
+    background: #294c71;
+    padding: 20px;
+}
+
+#rodape {
+    width: 750px;
+    margin: 0 auto;
+    color: #fff;
+}
+
