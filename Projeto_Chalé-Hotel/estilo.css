@@ -13,7 +13,7 @@ body {
 
 #container {
     /*background de fundo do conteúdo*/
-    background: #ede9cc;
+    background: #ede9cc url(/Projeto_Chalé-Hotel/pictures/bg-container.png) top  center repeat-y;
     margin: 0 auto;
     min-width: 740px;
     max-width: 1180px;
@@ -45,7 +45,7 @@ body {
     background: url(/Projeto_Chalé-Hotel/pictures/logo.png) no-repeat;
     width: 151px;
     height: 66px;
-    text-indent: -900000px;
+    text-indent: -9000px;
 }
 
 #area-menu {
@@ -75,11 +75,12 @@ body {
 
 #menu-locais .locais {
     float: left;
-    border: 1px solid;
+    line-height: 2.1em;
 }
 
 a {
     text-decoration: none;
+    
 }
 
 a.reserva {
@@ -89,4 +90,105 @@ a.reserva {
     padding: 5px 10px;
     float: right;
 }
+/* Navegação vertical */
 
+#menu {
+    margin-top: 15px;
+}
+
+ul {
+    list-style: none;
+}
+
+ul#navegacao {
+    float: left;
+
+}
+
+ul#navegacao a {
+    text-transform: uppercase;
+    font-size: 0.8em;
+    padding: 5px ;
+    color: #6e672c;
+    line-height: 30px;
+}
+ul#navegacao a:hover {
+    background: #fdf6be;
+}
+
+.depoimento {
+    width: 226px;
+    height: 164px;
+    float: right;
+}
+
+/*Área conteúdo*/
+
+#area-principal {
+    float: left;
+    width: 50%;
+    background: url(/Projeto_Chalé-Hotel/pictures/bg-area-principal.png) top left repeat-x;
+    padding: 15px 0px;
+}
+
+#area-lateral {
+    float: right;
+    width: 50%;
+    background: url(/Projeto_Chalé-Hotel/pictures/bg-area-lateral.png) top left repeat-x;
+    padding: 20px 0px;
+}
+
+.conteudo {
+    margin: 0 auto;
+    width: 90%;
+}
+
+#rodape {
+    clear: both;
+    padding: 16px;
+    background: #fff url(/Projeto_Chalé-Hotel/pictures/bg-rodape.png)repeat-x top;
+    color: #7d7640;
+}
+
+/*Formatando textos*/
+
+h2 {
+    font-size: 1.5em;
+    color: #7d7640;
+    padding: 5px 0px;
+}
+
+p {
+    font-size: 1em;
+    margin-bottom: 10px; 
+}
+
+/*Formatação lateral*/
+
+#lista-beneficio li {
+    padding: 8px;
+    border-bottom: 1px solid #f3efcb;
+    height: 6em;
+}
+
+#lista-beneficio li a img {
+    float: left;
+    margin-right: 8px;
+}
+
+#lista-beneficio li a p {
+    color: #000;
+    font-size: 0.8em;
+}
+
+#lista-beneficio li a h3 {
+    font-size: 1.1em;
+    color: #315b2d;
+    padding: 5px 0px;
+    background: url(/Projeto_Chalé-Hotel/pictures/ornamento.png) no-repeat center right;
+}
+
+#lista-beneficio li:hover {
+    background: #f6f3d6;
+    cursor: pointer;
+}
