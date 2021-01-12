@@ -1,0 +1,39 @@
+@font-face {
+    font-family: "Road Rage";
+    src: url("../aula_82/fontes/RoadRage.woff");
+}
+
+@font-face {
+    font-family: "Heart";
+    src: url("../aula_82/fontes/BringHeart.woff");
+}
+
+@font-face {
+    font-family: "Ancient";
+    src: url(../aula_82/fontes/Ancient-Medium.woff);
+}
+
+@font-face {
+    font-family: "Mandelina";
+    src: url(../aula_82/fontes/MadelinaScript.woff);
+}
+
+#road h1 {
+    font-size: 6em;
+    font-family: "Road Rage";
+}
+
+#heart h1 {
+    font-size: 6em;
+    font-family: "Heart";
+}
+
+#ancient h1 {
+    font-size: 6em;
+    font-family: "Ancient";
+}
+
+#mandelina h1 {
+    font-size: 6em;
+    font-family: "Mandelina";
+}
