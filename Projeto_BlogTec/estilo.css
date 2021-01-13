@@ -84,6 +84,7 @@ a:hover {
 #menu-links a:visited {
     color: #f8f4f4;
     padding: 9px 14px;
+    border-radius: 10px;
 }
 
 #menu-links a:hover {
