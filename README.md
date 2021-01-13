@@ -17,7 +17,7 @@ Conheça o curso mais COMPLETO da Udemy, que reúne o Desenvolvimento Web front-
 
 Confira abaixo os cursos e os projetos do pacote de Desenvolvimento Web Completo 2021:
 
-1) HTML5 <>
+1) <h3> HTML5 </h3>
 
 - Projeto UNES (Página institucional de uma universidade)
 
