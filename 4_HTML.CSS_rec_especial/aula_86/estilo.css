@@ -6,28 +6,24 @@
     width: 300px;
     height: 300px;
     background: linear-gradient(to left,blue, purple);
-    background: radial-gradient();
 }
 
 #caixa2 {
     width: 300px;
     height: 300px;
     background: linear-gradient(to top,blue, purple);
-    background: radial-gradient();
 }
 
 #caixa3 {
     width: 300px;
     height: 300px;
     background: linear-gradient(to right,blue, purple);
-    background: radial-gradient();
 }
 
 #caixa4 {
     width: 300px;
     height: 300px;
     background: linear-gradient(to bottom, blue, purple);
-    background: radial-gradient();
 }
 
 #caixa5 {
