@@ -7,7 +7,7 @@
 
 body {  /*Formatando a fonte e Aplicando background cacbeçalho*/
     font-family: 'Trebuchet MS', Helvetica, sans-serif;
-    background: #fff url(/Projeto_Cidade/pictures/fundo.png) repeat-x;
+    background: #fff url(../pictures/fundo.png) repeat-x;
 }
 
 #principal { /*Formatando tamanho do conteúdo*/
@@ -17,14 +17,14 @@ body {  /*Formatando a fonte e Aplicando background cacbeçalho*/
 
 #topo { /*Formatando cabeçalho*/
     height: 150px;
-    background: url(/Projeto_Cidade/pictures/detalhe-topo.png)no-repeat right top;
+    background: url(../pictures/detalhe-topo.png)no-repeat right top;
     padding-top: 20px;
 }
 
 .logo { /*Formatando a logo*/
     width: 152px;
     height: 66px;
-    background: url(/Projeto_Cidade/pictures/logo.png) no-repeat center;
+    background: url(../pictures/logo.png) no-repeat center;
 }
 
 ul { /*Formatando todas as listas*/
@@ -52,7 +52,7 @@ ul { /*Formatando todas as listas*/
     line-height: 1em;
     text-decoration: none;
     color: #fff;
-    background: url(/Projeto_Cidade/pictures/divisor.png) no-repeat left;
+    background: url(../pictures/divisor.png) no-repeat left;
 }
 
 #topo ul .primeiro a {
@@ -136,7 +136,7 @@ body.fotos #nav a#fotos {
 .caixa {
     margin: 10px 0px;
     padding: 5px;
-    background: #f3f3f3 url(/Projeto_Cidade/pictures/fundo-caixa.png);
+    background: #f3f3f3 url(../pictures/fundo-caixa.png);
 }
 
 h2 {
@@ -170,7 +170,7 @@ h2 {
 }
 
 #lateral ul a:hover {
-    background: #f9f9f9 url(/Projeto_Cidade/pictures/marcador.png) no-repeat left center;
+    background: #f9f9f9 url(../pictures/marcador.png) no-repeat left center;
     padding-left: 25px;
     color: #a1a1a1;
 }
