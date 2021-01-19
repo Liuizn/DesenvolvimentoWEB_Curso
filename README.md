@@ -19,23 +19,23 @@ Confira abaixo os cursos e os projetos do pacote de Desenvolvimento Web Completo
 
 ### 1 | HTML5  ✔️
 
-- <a href="https://github.com/Liuizn/DesenvolvimentoWEB_Curso/tree/Projetos/Projeto_CEMCC">Projeto UNES </a> (Página institucional de uma universidade)
+- <a href="https://github.com/Liuizn/DesenvolvimentoWEB_Curso/tree/Projetos/CEMCC">Projeto UNES </a> (Página institucional de uma universidade)
 
 
 
 ### 2 | CSS3  ✔️
 
-- <a href="https://github.com/Liuizn/DesenvolvimentoWEB_Curso/tree/Projetos/Projeto_Marilia"> Projeto Anna Bella </a> (Página web pessoal)
+- <a href="https://github.com/Liuizn/DesenvolvimentoWEB_Curso/tree/Projetos/Marilia-Modelo"> Projeto Anna Bella </a> (Página web pessoal)
 
-- <a href="https://github.com/Liuizn/DesenvolvimentoWEB_Curso/tree/Projetos/Projeto_BlogTec">Projeto TecBlog </a> (Blog de tecnologia)
+- <a href="https://github.com/Liuizn/DesenvolvimentoWEB_Curso/tree/Projetos/BlogTec">Projeto TecBlog </a> (Blog de tecnologia)
 
 
 
 ### 3 | CSS3 Intermediário & avançado ✔️
 
-- <a href="https://github.com/Liuizn/DesenvolvimentoWEB_Curso/tree/Projetos/Projeto_Cidade">Projeto Notícias da Cidade </a> (Portal de notícias) 
+- <a href="https://github.com/Liuizn/DesenvolvimentoWEB_Curso/tree/Projetos/Jornal-Cidade">Projeto Notícias da Cidade </a> (Portal de notícias) 
 
-- <a href="https://github.com/Liuizn/DesenvolvimentoWEB_Curso/tree/Projetos/Projeto_Chal%C3%A9-Hotel"> Projeto Chalé Hotel </a> (Página publicitária)
+- <a href="https://github.com/Liuizn/DesenvolvimentoWEB_Curso/tree/Projetos/Chale-Hotel"> Projeto Chalé Hotel </a> (Página publicitária)
 
 
 
