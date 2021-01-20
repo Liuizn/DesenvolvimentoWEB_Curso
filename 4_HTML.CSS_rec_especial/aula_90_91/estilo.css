@@ -1,0 +1,30 @@
+header {
+    background: grey;
+    border: 1px solid red;
+    padding: 20px;
+}
+
+nav {
+    background: grey;
+    border: 1px solid blue;
+    padding: 10px;
+}
+
+footer {
+    border: 1px solid green;
+    padding: 5px;
+}
+
+article {
+    background: orange;
+    padding: 10px;
+}
+
+section {
+    border: 1px dotted white;
+}
+
+aside {
+    border: 2px solid purple;
+    background: blue;
+}
