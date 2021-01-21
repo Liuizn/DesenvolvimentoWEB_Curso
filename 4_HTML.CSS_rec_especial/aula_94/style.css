@@ -2,11 +2,16 @@
     background: #dcdcdc;
     height: 400px;
     display: flex;
-    flex-direction:row-reverse;
+    flex-direction: row; /*row | row-reverse | column |  column-reserve */
+    flex-wrap: nowrap; /*nowrap | wrap | wrap-reverse*/
+    justify-content:space-around; /*flex-start | flex-end | center | space-beetwen | */
+    align-items: flex-start; /*strech | center | flex-start | flex-end | baseline*/
 }
 
 .item {
     background: white;
     border: 1px solid gray;
     margin: 10px;
+    padding: 20px;
 }
+ 
