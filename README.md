@@ -39,7 +39,7 @@ Confira abaixo os cursos e os projetos do pacote de Desenvolvimento Web Completo
 
 
 
-### 4 | HTML5 e CSS3 - Recursos especiais ❌
+### 4 | HTML5 e CSS3 - Recursos especiais ✔️
  
   - Projeto Museu Nacional
 
