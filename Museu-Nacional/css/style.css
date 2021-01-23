@@ -63,12 +63,15 @@ nav ul li a:hover {
 main {
     width: 710px;
     float: left;
+    margin-bottom: 20px;
 }
 
 aside {
     width: 350px;
     float: right;
     background: #ebe7dd;
+    padding-bottom: 30px;
+    margin-bottom: 20px;
 }
 
 section#visita {
@@ -86,6 +89,38 @@ section#galeria a {
     margin-left: 35px;
 }
 
+article#video {
+    float: left;
+    width: 310px;
+    margin-left: 25px;
+
+}
+
+article#mapa {
+    float: left;
+    width: 310px;
+    margin-left: 37px;
+}
+
+article#exposiçoes {
+    float: left;
+    width: 310px;
+    margin: 15px 0px 0px 25px;
+}
+
+article#historia {
+    float: left;
+    width: 310px;
+    margin: 15px 0px 0px 37px;
+}
+
+h3 {
+    color: #227115;
+    font-size: 1.0em;
+    margin-bottom: 15px;
+    text-transform: uppercase;
+}
+
 h4 {
     color: #86521a;
     text-align: center;
@@ -94,11 +129,16 @@ h4 {
     margin-bottom: 0;
 }
 
-h3 {
-    color: #227115;
-    font-size: 1.0em;
-    margin-bottom: 15px;
-    text-transform: uppercase;
+footer {
+    clear: both;
+    padding: 20px 0px 30px 0px;
+    margin-top: 20px;
+    text-align: center;
+    background: url(../pictures/fundo-rodape.png) no-repeat center top;
+}
+
+footer>p a {
+   padding: 2px 10px;
 }
 
 /* Formulário */
@@ -130,9 +170,5 @@ fieldset {
 
 legend {
     display: none;
-}
-
-#postagens {
-
 }
 
