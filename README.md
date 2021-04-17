@@ -47,7 +47,7 @@ Confira abaixo os cursos e os projetos do pacote de Desenvolvimento Web Completo
 
 ### 5 | Bootstrap 4 & Design responsivo ❌
 
-- Projeto Finans <a href="https://github.com/Liuizn/DesenvolvimentoWEB_Curso/tree/Projetos/Finans"> Projeto Finans</a>
+- <a href="https://github.com/Liuizn/DesenvolvimentoWEB_Curso/tree/Projetos/Finans"> Projeto Finans</a>
 
 - Spotify Clone
 
