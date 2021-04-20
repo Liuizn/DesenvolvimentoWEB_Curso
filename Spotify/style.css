@@ -1,6 +1,7 @@
 /* Conf - Layout */
 html, body, #home {
     height: 100%;
+    overflow-x:hidden;
 }
 
 * {
@@ -32,6 +33,10 @@ nav.navbar-transparente {
 .navbar-light .navbar-toggler {
     color: rgba(255, 255, 255, .6);
     border-color: rgba(255, 255, 255, .3);
+}
+
+#nav {
+    font-weight: 600;
 }
 
 .divisor {
@@ -66,6 +71,10 @@ h3 {
     color: #7c25f8;
 }
 
+ p {
+    font-size: 1.2em;
+}
+
 #recursos{
     color: white;
 }
@@ -79,8 +88,9 @@ h3 {
     border-radius: 500px;
     text-transform: uppercase;
     transition: background 0.4s, color 0.4s;
-    padding: 10px 15px;
+    padding: 15px 20px;
     font-size: 16px;
+    font-weight: 600;
 }
 
 .btn-roxo {
@@ -119,13 +129,51 @@ h3 {
     padding-left: 80px;
 }
 
+footer {
+    background-color: #000000;
+    padding: 50px 0px 20px 0px;
+    position: relative;
+}
+
+footer h4 {
+    color: #919496;
+    font-size: 1em;
+    text-transform: uppercase;
+}
+
+footer .navbar-nav a {
+    color: #f1dfdf;
+    font-size: 0.9em;
+}
+
+footer .navbar-nav a:hover {
+    color: #9bf0e1;
+    text-decoration: none;
+}
+
+
+.icons-footer {
+    font-size: 3.5em;
+    margin: 0px 10px 0px 10px;
+}
+
+footer #m {
+    margin-top: 30px;
+}
+
 /* // Extra small devices (portrait phones, less than 576px) */
 @media (max-width: 575.98px) {
     .btn-custom {
         margin: 10px 15px;
     }
 
+    footer img {
+        margin: 10px 10px 10px 10px;
+    }
 
+    footer .navbar-nav {
+        margin: 10px 10px 10px 10px;
+    }
 }
 
 /* // Small devices (landscape phones, 576px and up) */
@@ -136,6 +184,14 @@ h3 {
 
     .btn-custom {
         margin: 10px 15px;
+    }
+
+    footer img {
+        margin: 10px 10px 10px 10px;
+    }
+
+    footer .navbar-nav {
+        margin: 10px 10px 10px 10px;
     }
 }
 
@@ -148,6 +204,10 @@ h3 {
     .btn-custom {
         margin: 0px 10px 0px 10px;
     }
+
+    footer .col-md-2 {
+        margin-left: 20px;
+    }
 }
 
 /* // Large devices (desktops, 992px and up) */
@@ -159,6 +219,10 @@ h3 {
     .btn-custom {
         margin: 0px 10px 0px 10px;
     }
+
+    #dnone {
+        display: none;
+    }
 }
 
 /* // Extra large devices (large desktops, 1200px and up) */
@@ -169,5 +233,9 @@ h3 {
 
     .btn-custom {
         margin: 0px 10px 0px 10px;
+    }
+
+    #dnone {
+        display: none;
     }
 }
