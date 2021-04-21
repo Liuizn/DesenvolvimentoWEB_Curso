@@ -49,7 +49,7 @@ Confira abaixo os cursos e os projetos do pacote de Desenvolvimento Web Completo
 
 - <a href="https://github.com/Liuizn/DesenvolvimentoWEB_Curso/tree/Projetos/Finans"> Projeto Finans</a> (Página de um Software de finanças)
 
-- <a href="https://github.com/Liuizn/DesenvolvimentoWEB_Curso/tree/Projetos/Finans"> Spotify Clone</a>  (Site clone do Spotify)
+- <a href="https://github.com/Liuizn/DesenvolvimentoWEB_Curso/tree/Projetos/Spotify"> Spotify Clone</a>  (Site clone do Spotify)
 
 
 
