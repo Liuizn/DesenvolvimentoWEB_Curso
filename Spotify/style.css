@@ -10,9 +10,9 @@ html, body, #home {
 
 body {
     background: url(pictures/capa.png),
-        url(pictures/ruido.png),
-        linear-gradient(50deg, #ff4169, #7c26f8);
-    background-attachment: fixed;
+                url(pictures/ruido.png),
+                linear-gradient(50deg, #ff4169, #7c26f8);
+                background-attachment: fixed;
 }
 
 /* Conf - Barra de Navegação */
