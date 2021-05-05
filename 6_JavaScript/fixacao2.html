@@ -1,24 +1,52 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>fixação 2</title>
 </head>
+
 <body>
     <script>
         var nome = prompt('Qual o seu nome?');
         var altura = prompt('Qual a sua altura? (Inserir em centímetros)');
         var peso = prompt('Qual o seu peso?');
-        
+
         altura = parseFloat(altura);
         peso = parseFloat(peso);
 
         altura /= 100;
 
-        
+        var resultado = peso / altura ** 2;
 
-    </script>    
+        console.log(resultado);
+
+        if (resultado < 16) {
+            var situacao = 'Baixo peso muito grave';
+        } else if (resultado >= 16 && resultado <= 16.99) {
+            var situacao = 'Baixo peso grave';
+        } else if (resultado >= 17 && resultado <= 18.49) {
+            var situacao = 'Baixo peso';
+        } else if (resultado >= 18.50 && resultado <=24.99) {
+            var situacao = 'Peso Normal';
+        } else if (resultado >= 25 && resultado <= 29.99) {
+            var situacao = 'Sobrepeso'
+        } else if (resultado >= 30 && resultado <= 34.99) {
+            var situacao = 'Obesidade grau I';
+        } else if (resultado >= 35 && resultado <= 39.99) {
+            var situacao = 'Obesidade grau II';
+        } else if (resultado > 40) {
+            var situacao = 'Obesidade grau III';    
+        }
+
+        console.log(resultado);
+        console.log(situacao);
+
+        document.write(nome + ' possui índice de massa corporal igual a ' + resultado + ' sendo classificado como: ' + situacao)
+
+    </script>
 </body>
+
 </html>
