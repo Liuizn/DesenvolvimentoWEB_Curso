@@ -41,15 +41,15 @@ Confira abaixo os cursos e os projetos do pacote de Desenvolvimento Web Completo
 
 ### 4 | HTML5 e CSS3 - Recursos especiais ✔️
  
-  - <a href="https://github.com/Liuizn/DesenvolvimentoWEB_Curso/tree/Projetos/Museu-Nacional"> Projeto Museu Nacional </a>
+  - <a href="https://github.com/Liuizn/DesenvolvimentoWEB_Curso/tree/Projetos/Museu-Nacional"> Projeto Museu Nacional </a> (Página de um Museu)
 
 
 
-### 5 | Bootstrap 4 & Design responsivo ❌
+### 5 | Bootstrap 4 & Design responsivo ✔️
 
-- Projeto Finans
+- <a href="https://github.com/Liuizn/DesenvolvimentoWEB_Curso/tree/Projetos/Finans"> Projeto Finans</a> (Página de um Software de finanças)
 
-- Spotify Clone
+- <a href="https://github.com/Liuizn/DesenvolvimentoWEB_Curso/tree/Projetos/Spotify"> Spotify Clone</a>  (Site clone do Spotify)
 
 
 
