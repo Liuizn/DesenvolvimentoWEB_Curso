@@ -1,0 +1,22 @@
+#home {
+    background: #ffc107;
+    color: white;
+}
+
+.caixa {
+    padding: 60px 0;
+    border-bottom: 1px solid #e5e5e5;
+}
+
+footer ul {
+    display: flex;
+    list-style: none;
+}
+
+footer ul li a {
+    margin: 5px 15px;
+}
+
+.icon-rodape {
+    width: 200px;
+}
