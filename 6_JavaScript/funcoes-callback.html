@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        function exibirArtigo(id, callbackSucesso, callbackErro) {
+            //Lógica: recuperar o ID via requisição HTTP
+            if (true) {
+                callbackSucesso('Funções de callback em JS', 'Funções de callback são muitas utilizadas....')
+            } else {
+                callbackErro('Erro....')
+            }
+        }
+
+        var callbackSucesso = function (titulo, descricao) {
+            document.write('<h1>' + titulo + '</h1>')
+            document.write('<hr/>')
+            document.write('<p>' + descricao + '</p>')
+        }
+
+        var callbackErro = function ( erro) {
+            document.write('<p><b>Erro:</br>' + erro + '</p>')
+        }
+
+        exibirArtigo(1, callbackSucesso, callbackErro)
+
+    </script>
+</body>
+
+</html>

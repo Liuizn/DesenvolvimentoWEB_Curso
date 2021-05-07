@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>teste</title>
+</head>
+
+<body>
+
+    <script>
+        var num1 = parseInt (prompt("Insira o primeiro valor"));
+        var simbolo = prompt('Insira o metódo de operação (soma) ou (subtração)');
+        var num2 = parseInt(prompt('Insira o segundo valor'));
+        
+        console.log(num1)
+        console.log(num2)
+        console.log(simbolo)
+
+        if (simbolo == 'soma') {
+            let resultado = num1 + num2;
+            document.write('O resultado é ', resultado);
+        } else if (simbolo == 'subrtação') {
+            let resultado = num1 - num2;
+            document.write('O resultado é ', resultado);
+        } else {
+            document.write('Sinal não encontrado')
+        }
+    </script>
+</body>
+
+</html>
