@@ -1,0 +1,79 @@
+body {
+    font-family: 'Trebuchet MS', Helvetica, sans-serif;
+    background: #f2f2f2;
+}
+
+#container {
+    width: 900px;
+    margin: 0 auto;
+    background: #ffffff;
+}
+
+#logo {
+    height: 150px;
+    background: rgb(126, 123, 123);
+    text-align: center;
+    line-height: 150px;
+}
+
+#conteudo {
+    float: right;
+    width: 730px;
+}
+
+.posts {
+    width: 550px;
+    float: left;
+    margin-bottom: 10px;
+}
+
+.posts h2 {
+    text-align: center;
+
+}
+.posts p {
+    text-align: justify;
+    margin: 10px;
+}
+
+.posts-secundarios {
+    width: 160px;
+    float: right;
+    background: rgb(236, 232, 232);
+}
+
+.posts-secundarios h3 {
+    text-align: center;
+}
+
+.posts-secundarios ul {
+    list-style: none;
+}
+
+.posts-secundarios li a {
+    text-decoration: none;
+}
+
+#navegacao {
+    float: left;
+    width: 150px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background:rgb(236, 232, 232);
+}
+
+#rodape {
+    clear: both;
+    background: rgb(190, 190, 190);
+    padding: 5px;
+}
+
+#navegacao ul {
+    list-style: none;
+}
+
+#navegacao li a {
+    text-decoration: none;
+}
+
+

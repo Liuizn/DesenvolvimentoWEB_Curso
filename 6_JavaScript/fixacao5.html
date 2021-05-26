@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>fixação 5</title>
+</head>
+
+<body>
+    <input type="text" name="" id="caixa" placeholder="Insira o dado">
+    <input type="button" value="Adicionar" onclick="adicionar()">
+    <input type="button" value="Ordenar" onclick="ordernar()">
+
+
+    <script>
+        var objetos = Array('Cadeira', 'Impressora', 'Garfo');
+
+        function adicionar() {
+            var valor = document.getElementById('caixa').value;
+
+            if (valor == '') {
+                alert('Informe um valor válido.');
+            } else if (objetos.indexOf(valor) !== -1) {
+                alert('objeto já adicionado');
+                document.getElementById('caixa').value = '';
+            } else {
+                objetos.push(valor);
+                console.log(objetos);
+
+                document.getElementById('caixa').value = '';
+            }
+
+        }
+
+        function ordernar() {
+            objetos.sort()
+            console.log(objetos)        
+        }
+    </script>
+</body>
+
+</html>

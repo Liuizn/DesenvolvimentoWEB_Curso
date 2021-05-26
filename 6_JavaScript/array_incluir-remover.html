@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inclusão e Remover elementos dentro de um array</title>
+</head>
+<body>
+    
+    <script>
+        var lista_frutas = Array();
+        lista_frutas[0] = 'maça';
+        lista_frutas[1] = 'uva';
+        lista_frutas[2] = 'manga';
+        lista_frutas[3] = 'banana';
+
+        // Inclui um novo elemento no final da lista
+        lista_frutas.push('teste');
+
+        //inclui um novo elemento no inicio da lista
+        lista_frutas.unshift('teste inicio');
+
+        //excluir um elemento no final da lista 
+        lista_frutas.pop()
+
+        //excluir um elemento no início da lista 
+        lista_frutas.shift()
+
+        console.log(lista_frutas)
+    </script>
+</body>
+</html>

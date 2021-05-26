@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Manipulando elementos</title>
+</head>
+
+<body>
+
+    <input id="inpuut" type="text" name="" onkeyup="distribui()" placeholder="Digite um caractere aqui">
+    <hr>
+
+    <span>letra: </span>
+    <input id="letra" type="text" placeholder="Digite um caracter aqui">
+    <span>número: </span>
+    <input id="numero" type="text" placeholder="Digite um caracter aqui">
+
+    <script>
+        function distribui() {
+            // Captura valor digitado
+            var caractere = document.getElementById("inpuut").value;
+            //limpa a digitação
+            document.getElementById("inpuut").value = '';
+            // limpa espaços em branco
+            caractere.trim();
+
+            switch(caractere) {
+                case '0':
+                case '1':
+                case '2':
+                case '3':
+                case '4':
+                case '5':
+                case '6':
+                case '7':
+                case '8':
+                case '9':
+                    // Caso for número a ação vai acontecer aqui
+                    document.getElementById("numero").value += caractere;
+                    break;
+                default:
+                    // Caso for letra a ação acontece aqui
+                    document.getElementById("letra").value += caractere;
+                    break;
+            }
+        }
+    </script>
+</body>
+
+</html>

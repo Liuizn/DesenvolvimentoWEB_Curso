@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sobre DOM</title>
+</head>
+<body>
+    
+    <input type="text" name="nome-input" id="input-texto" placeholder="Insira seu nome" class="nome-classe">
+
+    <script>
+        console.log(document.getElementById('input-texto')) //Capturar ID
+        console.log(document.getElementsByClassName('nome-classe')) // Capturar Classe
+        console.log(document.getElementsByName('nome-input')) //Capturar Name
+        console.log(document.getElementsByTagName('input')) // Capturar a Tag
+    </script>
+</body>
+</html>
