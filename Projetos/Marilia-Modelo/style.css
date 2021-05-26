@@ -1,0 +1,54 @@
+body {
+	background-image: url('Fotos/fundo.png');
+	background-repeat: repeat;
+	background-attachment: scroll;
+	background-color: #5c2d57;
+	font-size: 16px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: bold;
+}
+
+#principal {
+	width:900px; 
+}
+
+#cabecalho {
+	background-color: #9c4c94;
+	padding: 18px;
+	text-align: center;
+}
+
+#cabecalho a {
+	color:#fff;
+	text-decoration: none;
+	padding: 5px;
+}
+
+#conteudo {
+	padding: 10px;
+	background-color: #C25FB8;
+}
+
+#conteudo h1 {
+	color: #000000;
+	text-align: center;
+	font-size: 1.8em;
+}
+
+#conteudo p {
+	color: #d8d6d6;
+}
+
+.img-campanha {
+	border: 10px solid #c3c3ae;
+	width: 640px;
+	height: 425px;
+}
+
+.central {
+	text-align: center;
+	color: #fff;
+}
+#cnt {
+	margin: 10px 0px 0px 0px
+}
