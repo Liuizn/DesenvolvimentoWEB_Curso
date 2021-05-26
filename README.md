@@ -138,15 +138,5 @@ Confira abaixo os cursos e os projetos do pacote de Desenvolvimento Web Completo
 - Projeto Gasolina ou Álcool
 
 
-
 <h1 align="center"> Junte-se a mais de 100 mil alunos que já fizeram e aprovaram os nossos treinamentos! </h1>
 
-<i><b>Para quem é este curso:</i></b>
-- Qualquer pessoa com vontade de aprender a criar sites e sistemas web profissionais.
-- Estudantes e profissionais que desejam aprender ou se aprofundar nas tecnologias HTML5, CSS3, Bootstrap4, JavaScript Moderno (ES6), Jquery, PHP 7, Framework SLIM, Orientação a Objetos, PDO, DAO, MVC, MySQL, IONIC, Wordpress.
-- Estudantes interessados em aprender na prática.
-
-<h1 align="center">Requisitos </h1>
-- Você não precisa saber nada sobre desenvolvimento web ou qualquer uma das tecnologias propostas neste curso para se inscrever e iniciar seus estudos. Você só precisa do desejo de aprender.
-- Todas as ferramentas utilizadas neste treinamento são de uso profissional e livre, ou seja, são gratuitas, logo, você não precisará de nenhum investimento financeiro em softwares para iniciar sua nova profissão como desenvolver web.
-- Se você tem habilidades básicas para utilizar um computador e acessar a internet e estiver em busca de uma nova profissão, este curso é para você.
