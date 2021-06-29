@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -9,8 +10,23 @@
     <script src="jogo.js"></script>
 
 </head>
+
 <body onresize="ajustaTamanhoPalcoJogo()">
-    <script>posicaoRandom()</script>
-    
+    <div class="painel">
+        <div class="vidas">
+            <img src="pictures/coracao_vazio.png" alt="">
+            <img src="pictures/coracao_cheio.png" alt="">
+            <img src="pictures/coracao_cheio.png" alt="">
+        </div>
+        <div class="cronometro">
+            <p>Tempo Restante:</p>
+        </div>
+    </div>
+
+    <script>
+        setInterval(function (){posicaoRandom()}, 1000)
+    </script>
+
 </body>
+
 </html>
