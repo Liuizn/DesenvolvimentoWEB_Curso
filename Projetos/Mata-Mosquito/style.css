@@ -1,3 +1,7 @@
+html {
+    cursor: url(pictures/mata_mosquito.png) 30 30, auto;
+}
+
 /*Inicio Configuração plano de fundo*/
 body {
     background:url(pictures/bg.jpg) no-repeat;
