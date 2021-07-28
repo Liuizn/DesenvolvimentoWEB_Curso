@@ -14,17 +14,21 @@
 <body onresize="ajustaTamanhoPalcoJogo()">
     <div class="painel">
         <div class="vidas">
-            <img src="pictures/coracao_vazio.png" alt="">
-            <img src="pictures/coracao_cheio.png" alt="">
-            <img src="pictures/coracao_cheio.png" alt="">
+            <img id="v1" src="pictures/coracao_cheio.png" alt="">
+            <img id="v2" src="pictures/coracao_cheio.png" alt="">
+            <img id="v3" src="pictures/coracao_cheio.png" alt="">
         </div>
         <div class="cronometro">
-            <p>Tempo Restante:</p>
+            <p>Tempo Restante: <span id="cronometro"></span></p>
         </div>
     </div>
 
     <script>
-        setInterval(function (){posicaoRandom()}, 1000)
+        document.getElementById('cronometro').innerHTML = tempo
+
+        var criaMosquito = setInterval(function () {
+            posicaoRandom()
+        }, 1000)
     </script>
 
 </body>

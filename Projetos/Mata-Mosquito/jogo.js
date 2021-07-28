@@ -1,6 +1,8 @@
-var altura
-var largura
-var i = 0
+var altura = 0
+var largura = 0 
+var vidas = 1
+var tempo = 10 
+
 function ajustaTamanhoPalcoJogo() {
     altura= window.innerHeight
     largura = window.innerWidth
@@ -10,12 +12,32 @@ function ajustaTamanhoPalcoJogo() {
 
 ajustaTamanhoPalcoJogo()
 
+var cronometro = setInterval(function() {
+    tempo -=1
+
+    if (tempo < 0) {
+        clearInterval(cronometro)
+        clearInterval(criaMosquito)
+        window.location.href = 'vitoria.html'
+    }
+    else {
+        document.getElementById('cronometro').innerHTML = tempo
+    }
+}, 1000)
+
 function posicaoRandom() {
 
     // Verifica se existe um mosquito e remove
     if (document.getElementById("mosquito")) {
-        console.log(i); i++
         document.getElementById("mosquito").remove()
+        
+        if(vidas > 3) {
+            window.location.href = 'fim_de_jogo.html '    
+        }
+        else {
+        document.getElementById('v' + vidas).src= "pictures/coracao_vazio.png"
+        vidas++
+        }
     }
 
         
@@ -37,7 +59,7 @@ function posicaoRandom() {
     mosquito.id = 'mosquito'
     mosquito.onclick = function() {
         this.remove()
-        console.log('vai toma no cu biel')
+        console.log('removido')
     }
 
     document.body.appendChild(mosquito)
