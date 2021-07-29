@@ -4,9 +4,10 @@ html {
 
 /*Inicio Configuração plano de fundo*/
 body {
-    background:url(pictures/bg.jpg) no-repeat;
+    background: url(pictures/bg.jpg) no-repeat;
     background-size: 100%;
 }
+
 /*Fim Configuração plano de fundo*/
 
 /* Inicio tamanho mosquito */
@@ -24,6 +25,7 @@ body {
     width: 90px;
     height: 90px;
 }
+
 /* Fim tamanho mosquito */
 
 /* Inicio Lado mosquito */
@@ -34,7 +36,9 @@ body {
 .ladoB {
     transform: scaleX(-1);
 }
+
 /* Fim lado mosquito */
+
 
 .painel {
     position: absolute;
