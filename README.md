@@ -53,7 +53,7 @@ Confira abaixo os cursos e os projetos do pacote de Desenvolvimento Web Completo
 
 
 
-### 6 | JavaScript ❌
+### 6 | JavaScript ✔️
  
 - App Calculadora
 
