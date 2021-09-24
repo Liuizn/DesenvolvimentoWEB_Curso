@@ -19,45 +19,45 @@ Confira abaixo os cursos e os projetos do pacote de Desenvolvimento Web Completo
 
 ### 1 | HTML5  ✔️
 
-- <a href="https://github.com/Liuizn/DesenvolvimentoWEB_Curso/tree/Projetos/CEMCC">Projeto UNES </a> (Página institucional de uma universidade)
+- <a href="https://github.com/Liuizn/DesenvolvimentoWEB_Curso/tree/Projetos/CEMCC" target="_blank">Projeto UNES </a> (Página institucional de uma universidade)
 
 
 
 ### 2 | CSS3  ✔️
 
-- <a href="https://github.com/Liuizn/DesenvolvimentoWEB_Curso/tree/Projetos/Marilia-Modelo"> Projeto Anna Bella </a> (Página web pessoal)
+- <a href="https://github.com/Liuizn/DesenvolvimentoWEB_Curso/tree/Projetos/Marilia-Modelo" target="_blank"> Projeto Anna Bella </a> (Página web pessoal)
 
-- <a href="https://github.com/Liuizn/DesenvolvimentoWEB_Curso/tree/Projetos/BlogTec">Projeto TecBlog </a> (Blog de tecnologia)
+- <a href="https://github.com/Liuizn/DesenvolvimentoWEB_Curso/tree/Projetos/BlogTec" target="_blank">Projeto TecBlog </a> (Blog de tecnologia)
 
 
 
 ### 3 | CSS3 Intermediário & avançado ✔️
 
-- <a href="https://github.com/Liuizn/DesenvolvimentoWEB_Curso/tree/Projetos/Jornal-Cidade">Projeto Notícias da Cidade </a> (Portal de notícias) 
+- <a href="https://github.com/Liuizn/DesenvolvimentoWEB_Curso/tree/Projetos/Jornal-Cidade" target="_blank">Projeto Notícias da Cidade </a> (Portal de notícias) 
 
-- <a href="https://github.com/Liuizn/DesenvolvimentoWEB_Curso/tree/Projetos/Chale-Hotel"> Projeto Chalé Hotel </a> (Página publicitária)
+- <a href="https://github.com/Liuizn/DesenvolvimentoWEB_Curso/tree/Projetos/Chale-Hotel" target="_blank"> Projeto Chalé Hotel </a> (Página publicitária)
 
 
 
 ### 4 | HTML5 e CSS3 - Recursos especiais ✔️
  
-  - <a href="https://github.com/Liuizn/DesenvolvimentoWEB_Curso/tree/Projetos/Museu-Nacional"> Projeto Museu Nacional </a> (Página de um Museu)
+  - <a href="https://github.com/Liuizn/DesenvolvimentoWEB_Curso/tree/Projetos/Museu-Nacional" target="_blank"> Projeto Museu Nacional </a> (Página de um Museu)
 
 
 
 ### 5 | Bootstrap 4 & Design responsivo ✔️
 
-- <a href="https://github.com/Liuizn/DesenvolvimentoWEB_Curso/tree/Projetos/Finans"> Projeto Finans</a> (Página de um Software de finanças)
+- <a href="https://github.com/Liuizn/DesenvolvimentoWEB_Curso/tree/Projetos/Finans" target="_blank"> Projeto Finans</a> (Página de um Software de finanças)
 
-- <a href="https://github.com/Liuizn/DesenvolvimentoWEB_Curso/tree/Projetos/Spotify"> Spotify Clone</a>  (Site clone do Spotify)
+- <a href="https://github.com/Liuizn/DesenvolvimentoWEB_Curso/tree/Projetos/Spotify" target="_blank"> Spotify Clone</a> (Site clone do Spotify)
 
 
 
 ### 6 | JavaScript ✔️
  
-- App Calculadora
+- <a href="https://github.com/Liuizn/DesenvolvimentoWEB_Curso/tree/Home/Projetos/App-Calculadora" target="_blank"> App Calculadora</a>
 
-- App Game Mata Mosquito (Um game sensacional que vai desafiar seus conhecimentos de lógica de programação)
+- <a href="https://github.com/Liuizn/DesenvolvimentoWEB_Curso/tree/Home/Projetos/Mata-Mosquito" target="_blank"> App Game Mata Mosquito</a> (Um game sensacional que vai desafiar seus conhecimentos de lógica de programação)
 
 
 ### 7 | JavaScript Moderno (ECMAScript 2015 - ES6) e Orientação a Objetos :hourglass_flowing_sand:
