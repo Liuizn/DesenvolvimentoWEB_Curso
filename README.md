@@ -55,7 +55,7 @@ Confira abaixo os cursos e os projetos do pacote de Desenvolvimento Web Completo
 
 ### 6 | JavaScript ✔️
  
-- <a href="https://github.com/Liuizn/DesenvolvimentoWEB_Curso/tree/Home/Projetos/App-Calculadora" target="_blank"> App Calculadora</a>
+- <a href="https://github.com/Liuizn/DesenvolvimentoWEB_Curso/tree/Home/Projetos/App-Calculadora" target="_blank"> App Calculadora</a> (Uma aplicação web de calculadora)
 
 - <a href="https://github.com/Liuizn/DesenvolvimentoWEB_Curso/tree/Home/Projetos/Mata-Mosquito" target="_blank"> App Game Mata Mosquito</a> (Um game sensacional que vai desafiar seus conhecimentos de lógica de programação)
 
