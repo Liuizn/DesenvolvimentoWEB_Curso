@@ -60,7 +60,7 @@ Confira abaixo os cursos e os projetos do pacote de Desenvolvimento Web Completo
 - App Game Mata Mosquito (Um game sensacional que vai desafiar seus conhecimentos de lógica de programação)
 
 
-### 7 | JavaScript Moderno (ECMAScript 2015 - ES6) e Orientação a Objetos ❌
+### 7 | JavaScript Moderno (ECMAScript 2015 - ES6) e Orientação a Objetos :hourglass_flowing_sand:
 
 - App Orçamento Pessoal (App para controle pessoal de finanças)
 
