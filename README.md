@@ -65,7 +65,7 @@ Confira abaixo os cursos e os projetos do pacote de Desenvolvimento Web Completo
 - App Orçamento Pessoal (App para controle pessoal de finanças)
 
 
-### 8 | PHP 7 ❌
+### 8 | PHP 7 :hourglass_flowing_sand:
 
 - App Help Desk (App para abertura e acompanhamento de suportes técnicos)
 
