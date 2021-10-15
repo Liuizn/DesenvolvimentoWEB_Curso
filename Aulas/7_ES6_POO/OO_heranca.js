@@ -4,34 +4,33 @@ class Animal {
         this.tamanho = 40
     }
 
-    dormir(){
+    dormir() {
         console.log('dormir')
     }
 }
 
-
-class Cachorro extends Animal{
+class Cachorro extends Animal {
     constructor() {
         super()
         this.orelhas = 2
     }
 
-    correr(){
+    correr() {
         console.log('correu')
     }
 
-    rosnar(){
+    rosnar() {
         console.log('rosnar')
     }
 }
 
-class Passaro extends Animal{
+class Passaro extends Animal {
     constructor() {
         super()
         this.bico = 'pequeno'
     }
 
-    voar(){
+    voar() {
         console.log('voou')
     }
 }
