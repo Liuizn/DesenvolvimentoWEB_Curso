@@ -94,7 +94,7 @@ Confira abaixo os cursos e os projetos do pacote de Desenvolvimento Web Completo
 
 
 
-### 13 | Publicação de aplicações Web na Internet ❌
+### 13 | Publicação de aplicações Web na Internet ✔️
 
   - Publicação de aplicações web (PHP e MySQL) utilizando o InfintyFree
 
