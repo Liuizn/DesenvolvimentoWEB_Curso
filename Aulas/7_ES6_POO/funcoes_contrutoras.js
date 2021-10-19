@@ -28,5 +28,6 @@ carro.Acelerei()
 carro.Acelerei()
 carro.Acelerei()
 carro.Acelerei()
+carro.Acelerei()
 
 console.log(carro.getVelocidadeAtual())
