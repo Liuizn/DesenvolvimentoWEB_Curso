@@ -1,9 +1,0 @@
-let frutas =  ['Abacaxi', 'Pera', 'Uva', 'Mamão']
-let [ a, b, c ] = frutas
-
-let coisas = [['Abacaxi', 'Uva', 'Pera', 'Mamão'], ['José', 'Maria']]
-
-let[[,,n1]] = coisas
-
-console.log(n1)
-
