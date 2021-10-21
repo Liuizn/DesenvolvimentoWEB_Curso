@@ -8,9 +8,9 @@ class Despesa {
         this.valor = valor
     }
 
-    validaDados(){
+    validaDados() {
         for (let i in this) {
-            if ((this[i] == undefined)||(this[i] == null)||(this[i] =='')) {
+            if ((this[i] == undefined) || (this[i] == null) || (this[i] == '')) {
                 return false
             }
         }
@@ -23,14 +23,14 @@ class BD {
         let id = localStorage.getItem('id') //Puxa informação do ID
         // Se o id for Nulo atribui o Valor de 0.
         if (id === null) {
-            localStorage.setItem('id', 0) 
+            localStorage.setItem('id', 0)
         }
 
     }
     //Lógica para gera o valor de uma chave para um possível novo registro
-    getIdSegunite(){
+    getIdSegunite() {
         let idSeguinte = localStorage.getItem('id') // puxa o último valor 
-        return parseInt(idSeguinte) + 1  // passa o valor da chave "id" para Int e acrescenta mais 1
+        return parseInt(idSeguinte) + 1 // passa o valor da chave "id" para Int e acrescenta mais 1
     }
     //Lógica para registar 
     gravar(d) {
@@ -57,13 +57,10 @@ function cadastrarDespesa() {
     let bd = new BD() // Criando instância da Classe BD
 
     //lógica para chamar o registro da despesa no Local Storage
-    if(despesa.validaDados()){
+    if (despesa.validaDados()) {
         bd.gravar(despesa)
-        console.log('deu bom')
+        $('#sucessoRegistro').modal('show')
     } else {
-        console.log('deu ruim')
+        $('#erroRegistro').modal('show')
     }
 }
-
-
-
