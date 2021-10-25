@@ -54,8 +54,26 @@ class BD {
         localStorage.setItem('id', id)
     }
 
+    recuperarRegistros(){
+        let conjuntoRegistros = Array()
+
+        let id = localStorage.getItem('id')
+        //lógica para retornar registros
+        for (let i = 0; i <= id; i++) {
+            let registroDespesa = JSON.parse(localStorage.getItem(i))
+            
+            if (registroDespesa === null) {
+                continue
+            }
+
+            conjuntoRegistros.push(registroDespesa) 
+        }
+        return conjuntoRegistros
+    }
+
 }
 
+let bd = new BD() // Criando instância da Classe BD
 
 
 function cadastrarDespesa() {
@@ -69,7 +87,6 @@ function cadastrarDespesa() {
     // criando novo Objeto e passando como parametros os valores acima
     const despesa = new Despesa(ano, mes, dia, tipo, descricao, valor)
     // criando novo Objeto da Classe BD
-    let bd = new BD() // Criando instância da Classe BD
 
     //lógica para chamar o registro da despesa no Local Storage
     if (despesa.validaDados()) {
@@ -78,4 +95,10 @@ function cadastrarDespesa() {
     } else {
         $('#modalRegistro').modal('show')
     }
+}
+
+function carregaLista() {
+    let despesas = Array()
+    despesas = bd.recuperarRegistros()
+    console.log(despesas)
 }
