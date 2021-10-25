@@ -7,7 +7,7 @@ class Despesa {
         this.descricao = descricao
         this.valor = valor
     }
-
+    //Lógica para avaliar se os dados inseridos estão preenchidos corretamente
     validaDados() {
         for (let i in this) {
             if ((this[i] == undefined) || (this[i] == null) || (this[i] == '')) {
