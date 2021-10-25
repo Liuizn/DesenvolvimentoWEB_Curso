@@ -9,11 +9,26 @@ class Despesa {
     }
     //Lógica para avaliar se os dados inseridos estão preenchidos corretamente
     validaDados() {
+        const headerModal = document.querySelector("#exampleModalLabel")
+        const bodyModal = document.querySelector(".modal-body")
+        const footerModal = document.querySelector(".botao")
+        // Se houver algum erro, essa lógica irá ser aplicada
         for (let i in this) {
             if ((this[i] == undefined) || (this[i] == null) || (this[i] == '')) {
+                headerModal.innerHTML = "Erro ao Registrar :c"
+                headerModal.classList.add("text-danger")
+                bodyModal.innerHTML = "Faltou você preencher alguns campos."
+                footerModal.innerHTML = "Corrigir"
+                footerModal.classList.add("btn-danger")
                 return false
+                
             }
         }
+        headerModal.innerHTML = "Registrado com sucesso! c:"
+        headerModal.classList.add("text-success")
+        bodyModal.innerHTML = "A despesa foi registrada!"
+        footerModal.innerHTML = "Ok"
+        footerModal.classList.add("btn-success")
         return true
     }
 }
@@ -59,8 +74,8 @@ function cadastrarDespesa() {
     //lógica para chamar o registro da despesa no Local Storage
     if (despesa.validaDados()) {
         bd.gravar(despesa)
-        $('#sucessoRegistro').modal('show')
+        $('#modalRegistro').modal('show')
     } else {
-        $('#erroRegistro').modal('show')
+        $('#modalRegistro').modal('show')
     }
 }
