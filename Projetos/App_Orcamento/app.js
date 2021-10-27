@@ -21,14 +21,14 @@ class Despesa {
                 footerModal.innerHTML = "Corrigir"
                 footerModal.classList.add("btn-danger")
                 return false
-                
             }
         }
         headerModal.innerHTML = "Registrado com sucesso! c:"
-        headerModal.classList.add("text-success")
+        headerModal.classList.toggle("text-success")
         bodyModal.innerHTML = "A despesa foi registrada!"
         footerModal.innerHTML = "Ok"
-        footerModal.classList.add("btn-success")
+        footerModal.classList.toggle("btn-success")
+        console.log('ok !')
         return true
     }
 }
@@ -65,16 +65,16 @@ class BD {
             if (registroDespesa === null) {
                 continue
             }
-
-            conjuntoRegistros.push(registroDespesa) 
-        }
+            registroDespesa.id = i
+            conjuntoRegistros.push(registroDespesa)
+            console.log(conjuntoRegistros.ano)
+        }   
         return conjuntoRegistros
     }
 
     pesquisar(despesa) {
         let despesasFiltradas = []
         despesasFiltradas =  this.recuperarRegistros()
-        console.log(despesasFiltradas)
         
         // Filtro Ano
         if (despesa.ano != '') {
@@ -101,8 +101,12 @@ class BD {
             despesasFiltradas = despesasFiltradas.filter(d => d.valor == despesa.valor)
         }
 
+        return despesasFiltradas
     }
 
+    remover(id){
+        localStorage.removeItem(id)
+    }
 }
 
 let bd = new BD() // Criando instância da Classe BD
@@ -135,27 +139,7 @@ function cadastrarDespesa() {
     }
 }
 
-function carregaLista() {
-    let despesas = Array()
-    despesas = bd.recuperarRegistros()
-    console.log(despesas)
-    let corpo = document.querySelector("tbody")
 
-
-    
-    
-    for (let i = 0; i < despesas.length; i++) {
-        let linha = corpo.insertRow()
-        linha.insertCell(0).innerText = `${despesas[i].dia}/${despesas[i].mes}/${despesas[i].ano}`
-        linha.insertCell(1).innerText = despesas[i].tipo
-        linha.insertCell(2).innerText = despesas[i].descricao
-        linha.insertCell(3).innerText = despesas[i].valor
-
-
-    
-    
-    }
-}
 
 function pesquisarDespesa() {
     let ano = document.getElementById('ano').value
@@ -167,5 +151,24 @@ function pesquisarDespesa() {
 
     const despesa = new Despesa(ano, mes, dia, tipo, descricao, valor);
 
-    bd.pesquisar(despesa)
+    let despesas = bd.pesquisar(despesa)
+
+    let corpo = document.querySelector("tbody")
+
+    for (let i = 0; i < despesas.length; i++) {
+        let linha = corpo.insertRow()
+        linha.insertCell(0).innerText = `${despesas[i].dia}/${despesas[i].mes}/${despesas[i].ano}`
+        linha.insertCell(1).innerText = despesas[i].tipo
+        linha.insertCell(2).innerText = despesas[i].descricao
+        linha.insertCell(3).innerText = despesas[i].valor
+
+        let botao = document.createElement("button")
+        botao.className = "btn btn-danger"
+        botao.innerHTML = '<i class="fas fa-times"></i>'
+        botao.id = "id_despesa_" + despesas[i].id
+        botao.onclick = ()=>{bd.remover(despesas[i].id)}   
+        linha.insertCell(4).appendChild(botao)
+
+
+    }
 }
