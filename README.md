@@ -60,9 +60,9 @@ Confira abaixo os cursos e os projetos do pacote de Desenvolvimento Web Completo
 - <a href="https://github.com/Liuizn/DesenvolvimentoWEB_Curso/tree/Home/Projetos/Mata-Mosquito" target="_blank"> App Game Mata Mosquito</a> (Um game sensacional que vai desafiar seus conhecimentos de lógica de programação)
 
 
-### 7 | JavaScript Moderno (ECMAScript 2015 - ES6) e Orientação a Objetos :hourglass_flowing_sand:
+### 7 | JavaScript Moderno (ECMAScript 2015 - ES6) e Orientação a Objetos ✔️
 
-- App Orçamento Pessoal (App para controle pessoal de finanças)
+- <a href="https://github.com/Liuizn/DesenvolvimentoWEB_Curso/tree/Home/Projetos/App_Orcamento" target="_blank"> App Orçamento Pessoal</a> (App para controle pessoal de finanças)
 
 
 ### 8 | PHP 7 :hourglass_flowing_sand:
@@ -71,7 +71,7 @@ Confira abaixo os cursos e os projetos do pacote de Desenvolvimento Web Completo
 
 
 
-### 9 | PHP 7 e Orientação a Objetos ❌
+### 9 | PHP 7 e Orientação a Objetos :hourglass_flowing_sand:
 
 - App Send Mail (App para criação e envio de e-mails)
 
