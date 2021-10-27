@@ -15,6 +15,10 @@ class Despesa {
         // Se houver algum erro, essa lógica irá ser aplicada
         for (let i in this) {
             if ((this[i] == undefined) || (this[i] == null) || (this[i] == '')) {
+                if (headerModal.classList.contains("text-success") && footerModal.classList.contains("btn-success")) {
+                    headerModal.classList.remove("text-success")
+                    footerModal.classList.remove("btn-success")
+                }
                 headerModal.innerHTML = "Erro ao Registrar :c"
                 headerModal.classList.add("text-danger")
                 bodyModal.innerHTML = "Faltou você preencher alguns campos."
@@ -23,12 +27,15 @@ class Despesa {
                 return false
             }
         }
+        if (headerModal.classList.contains("text-danger") && footerModal.classList.contains("btn-danger")) {
+            headerModal.classList.remove("text-danger")
+            footerModal.classList.remove("btn-danger")
+        }
         headerModal.innerHTML = "Registrado com sucesso! c:"
-        headerModal.classList.toggle("text-success")
+        headerModal.classList.add("text-success")
         bodyModal.innerHTML = "A despesa foi registrada!"
         footerModal.innerHTML = "Ok"
-        footerModal.classList.toggle("btn-success")
-        console.log('ok !')
+        footerModal.classList.add("btn-success")
         return true
     }
 }
@@ -54,28 +61,27 @@ class BD {
         localStorage.setItem('id', id)
     }
 
-    recuperarRegistros(){
+    recuperarRegistros() {
         let conjuntoRegistros = Array()
 
         let id = localStorage.getItem('id')
         //lógica para retornar registros
         for (let i = 0; i <= id; i++) {
             let registroDespesa = JSON.parse(localStorage.getItem(i))
-            
+
             if (registroDespesa === null) {
                 continue
             }
             registroDespesa.id = i
             conjuntoRegistros.push(registroDespesa)
-            console.log(conjuntoRegistros.ano)
-        }   
+        }
         return conjuntoRegistros
     }
 
     pesquisar(despesa) {
         let despesasFiltradas = []
-        despesasFiltradas =  this.recuperarRegistros()
-        
+        despesasFiltradas = this.recuperarRegistros()
+
         // Filtro Ano
         if (despesa.ano != '') {
             despesasFiltradas = despesasFiltradas.filter(d => d.ano == despesa.ano)
@@ -104,8 +110,10 @@ class BD {
         return despesasFiltradas
     }
 
-    remover(id){
+    remover(id) {
+        console.log(id)
         localStorage.removeItem(id)
+        window.location.reload()
     }
 }
 
@@ -139,36 +147,49 @@ function cadastrarDespesa() {
     }
 }
 
+function conjuntoDespesa() {
+    excluirPesquisa()
+    pesquisarDespesa()
+}
+
+function excluirPesquisa() {
+    let corpo = document.querySelector("tbody")
+    corpo.innerHTML = ''
+}
+
 
 
 function pesquisarDespesa() {
-    let ano = document.getElementById('ano').value
-    let mes = document.getElementById('mes').value
-    let dia = document.getElementById('dia').value
-    let tipo = document.getElementById('tipo').value
-    let descricao = document.getElementById('descricao').value
-    let valor = document.getElementById('valor').value
-
-    const despesa = new Despesa(ano, mes, dia, tipo, descricao, valor);
-
-    let despesas = bd.pesquisar(despesa)
-
     let corpo = document.querySelector("tbody")
+    let ano = document.getElementById('ano')
+    let mes = document.getElementById('mes')
+    let dia = document.getElementById('dia')
+    let tipo = document.getElementById('tipo')
+    let descricao = document.getElementById('descricao')
+    let valor = document.getElementById('valor')
 
-    for (let i = 0; i < despesas.length; i++) {
+    const despesa = new Despesa(ano.value, mes.value, dia.value, tipo.value, descricao.value, valor.value);
+    
+    let despesas = bd.pesquisar(despesa)
+    
+    
+    despesas.forEach(d => {
         let linha = corpo.insertRow()
-        linha.insertCell(0).innerText = `${despesas[i].dia}/${despesas[i].mes}/${despesas[i].ano}`
-        linha.insertCell(1).innerText = despesas[i].tipo
-        linha.insertCell(2).innerText = despesas[i].descricao
-        linha.insertCell(3).innerText = despesas[i].valor
-
+        linha.insertCell(0).innerText = `${d.dia}/${d.mes}/${d.ano}`
+        linha.insertCell(1).innerText = d.tipo
+        linha.insertCell(2).innerText = d.descricao
+        linha.insertCell(3).innerText = d.valor
+        //Criando Botão de excluir
         let botao = document.createElement("button")
         botao.className = "btn btn-danger"
         botao.innerHTML = '<i class="fas fa-times"></i>'
-        botao.id = "id_despesa_" + despesas[i].id
-        botao.onclick = ()=>{bd.remover(despesas[i].id)}   
+        botao.id = "id_despesa_" + d.id
+        botao.onclick = () => {
+            bd.remover(d.id)
+        }
         linha.insertCell(4).appendChild(botao)
-
-
-    }
+    });
+    console.log('LOG PESQUISA:' +  corpo.childElementCount)
+    
+    
 }
