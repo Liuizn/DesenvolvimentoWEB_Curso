@@ -47,10 +47,10 @@
 
 <body>
 
-  <nav class="navbar navbar-dark bg-dark">
-    <a class="navbar-brand" href="home.php">
+<nav class="navbar navbar-dark bg-danger">
+    <a class="navbar-brand" href="#">
       <img src="logo.png" width="30" height="30" class="d-inline-block align-top" alt="">
-      App Help Desk
+      Suporte já
     </a>
   </nav>
 
@@ -87,7 +87,7 @@
 
 
             <div class="row mt-5">
-              <div class="col-6">
+              <div class="col-12">
                 <a href="home.php" class="btn btn-lg btn-warning btn-block" type="submit">Voltar</a>
               </div>
             </div>
