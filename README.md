@@ -62,7 +62,7 @@ Confira abaixo os cursos e os projetos do pacote de Desenvolvimento Web Completo
 
 ### 7 | JavaScript Moderno (ECMAScript 2015 - ES6) e Orientação a Objetos ✔️
 
-- <a href="https://github.com/Liuizn/DesenvolvimentoWEB_Curso/tree/Home/Projetos/App_Orcamento" target="_blank"> App Orçamento Pessoal</a> (App para controle pessoal de finanças)
+- <a href="https://github.com/Liuizn/DesenvolvimentoWEB_Curso/tree/Home/Projetos/App-Calculadora" target="_blank"> App Orçamento Pessoal</a> (App para controle pessoal de finanças)
 
 
 ### 8 | PHP 7 :hourglass_flowing_sand:
