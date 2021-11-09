@@ -65,9 +65,9 @@ Confira abaixo os cursos e os projetos do pacote de Desenvolvimento Web Completo
 - <a href="https://github.com/Liuizn/DesenvolvimentoWEB_Curso/tree/Home/Projetos/App_Orcamento" target="_blank"> App Orçamento Pessoal</a> (App para controle pessoal de finanças)
 
 
-### 8 | PHP 7 :hourglass_flowing_sand:
+### 8 | PHP 7 ✔️
 
-- App Help Desk (App para abertura e acompanhamento de suportes técnicos)
+- <a href="https://github.com/Liuizn/DesenvolvimentoWEB_Curso/tree/Home/Projetos/App-suporteJa" target="_blank"> App Help Desk </a> (App para abertura e acompanhamento de suportes técnicos)
 
 
 
