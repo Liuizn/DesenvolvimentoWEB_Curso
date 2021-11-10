@@ -15,5 +15,6 @@
     }
     
     Echo Exemplo::$atributo1;
+    Exemplo::metodo1();
 
 ?>
