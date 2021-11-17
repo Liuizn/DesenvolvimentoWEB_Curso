@@ -77,7 +77,7 @@ Confira abaixo os cursos e os projetos do pacote de Desenvolvimento Web Completo
 
 
 
-### 10 | Banco de dados MySQL ❌
+### 10 | Banco de dados MySQL :hourglass_flowing_sand:
 
 - Projeto Banco de Dados Loja Virtual (Implementação do banco de dados de uma loja virtual)
 
