@@ -1,4 +1,4 @@
-CREATE TABLE aula02;
+CREATE DATABASE aula02;
 USE aula02;
 CREATE TABLE tb_cursos (
 	id_curso INT NOT NULL,
