@@ -121,3 +121,5 @@ SELECT * FROM tb_alunos WHERE interesse = 'jogos';
 SELECT * FROM tb_alunos WHERE idade < 25;
 SELECT * FROM tb_alunos WHERE idade <= 25;
 SELECT * FROM tb_alunos WHERE estado = 'ES';
+
+SELECT * FROM tb_alunos WHERE estado = 'ES' OR estado = 'MG' OR estado = 'RJ' OR estado = 'SP';
