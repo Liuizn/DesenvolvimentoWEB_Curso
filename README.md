@@ -83,7 +83,7 @@ Confira abaixo os cursos e os projetos do pacote de Desenvolvimento Web Completo
 
 
 
-### 11 | Ajax ❌
+### 11 | Ajax :hourglass_flowing_sand:
 
 - App Pesquisa Endereço (Aprenda a realizar requisições HTTP via XMLHttpRequest para API's)
 
