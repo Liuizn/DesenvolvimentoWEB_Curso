@@ -1,5 +1,5 @@
 CREATE DATABASE aula08;
-use aula08;
+USE aula08;
 
 CREATE TABLE tb_alunos (
   id_aluno int,
