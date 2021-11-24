@@ -1,5 +1,5 @@
-CREATE DATABASE aula06;
-use aula06;
+CREATE DATABASE aula07;
+use aula07;
 
 CREATE TABLE tb_alunos (
   id_aluno int,
@@ -118,9 +118,6 @@ INSERT INTO `tb_alunos` (`id_aluno`,`nome`,`idade`,`interesse`,`email`,`estado`)
 (99,"Tara",95,"Jogos","Donec.porttitor.tellus@nonfeugiat.co.uk","DF"),
 (100,"Charissa",50,"Informática","orci@elementumduiquis.ca","AP");
 
-SELECT * FROM tb_alunos WHERE interesse = 'jogos';
-SELECT * FROM tb_alunos WHERE idade < 25;
-SELECT * FROM tb_alunos WHERE idade <= 25;
-SELECT * FROM tb_alunos WHERE estado = 'ES';
 
-SELECT * FROM tb_alunos WHERE estado = 'ES' OR estado = 'MG' OR estado = 'RJ' OR estado = 'SP';
+SELECT * FROM tb_alunos WHERE idade BETWEEN 18 AND 24; 
+
