@@ -71,9 +71,9 @@ Confira abaixo os cursos e os projetos do pacote de Desenvolvimento Web Completo
 
 
 
-### 9 | PHP 7 e Orientação a Objetos :hourglass_flowing_sand:
+### 9 | PHP 7 e Orientação a Objetos ✔️
 
-- App Send Mail (App para criação e envio de e-mails)
+- <a href="https://github.com/Liuizn/DesenvolvimentoWEB_Curso/tree/main/Projetos/APP_Send-Mail" target="_blank"> App Send Mail </a>(App para criação e envio de e-mails)
 
 
 
