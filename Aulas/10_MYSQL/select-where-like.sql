@@ -1,5 +1,5 @@
-CREATE DATABASE aula08;
-use aula08;
+CREATE DATABASE aula09;
+use aula09;
 
 CREATE TABLE tb_alunos (
   id_aluno int,
@@ -118,8 +118,6 @@ INSERT INTO `tb_alunos` (`id_aluno`,`nome`,`idade`,`interesse`,`email`,`estado`)
 (99,"Tara",95,"Jogos","Donec.porttitor.tellus@nonfeugiat.co.uk","DF"),
 (100,"Charissa",50,"Informática","orci@elementumduiquis.ca","AP");
 
-SELECT * FROM tb_alunos WHERE interesse IN ('Jogos', 'Música');
-SELECT * FROM tb_alunos WHERE  interesse NOT IN ('Jogos', 'Música');
 
-
-
+SELECT * FROM tb_alunos WHERE nome LIKE "Li%";
+SELECT * FROM tb_alunos WHERE nome LIKE "%___E___%";
