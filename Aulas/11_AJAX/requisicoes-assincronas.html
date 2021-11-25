@@ -27,10 +27,10 @@
             //Lógica para saber o profile da requisição 
             ajax.onreadystatechange = () => {
                 if (ajax.readyState == 4 && ajax.status == 200) {
-                    document.getElementById('conteudo').innerHTML = 'Requisição realizada com sucesso. Status 200'
+                    document.getElementById('conteudo').innerHTML = ajax.responseText
                 }
                 if (ajax.readyState == 4 && ajax.status == 404) {
-                    document.getElementById('conteudo').innerHTML = 'Requisição realizada com sucesso, Porém nada encontrado. Status 404'
+                    document.getElementById('conteudo').innerHTML = 'tente novamente.'
                 }
             }
             ajax.send()
