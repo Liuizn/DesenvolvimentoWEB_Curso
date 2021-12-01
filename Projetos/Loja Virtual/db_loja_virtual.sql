@@ -7,16 +7,12 @@ CREATE TABLE produtos(
     valor FLOAT(8,2) NOT NULL 
 );
 
-SELECT * FROM produtos;
-
 CREATE TABLE descricoes_tecnicas(
 	id_descricao_tecnica INT NOT NULL PRIMARY KEY AUTO_INCREMENT,
     id_produto_fk INT NOT NULL,
     descricao_tecnica TEXT NOT NULL,
     FOREIGN KEY(id_produto_fk) REFERENCES produtos(id_produto)
 );
-
-SELECT * FROM descricoes_tecnicas;
 
 INSERT INTO produtos(produto, valor) VALUES ('Notebook Dell Inspiron Ultrafino Intel Core i7, 16GB RAM e 240GB SSD', 3500.00);
 INSERT INTO produtos(produto, valor) VALUES ('Smart TV LED 40" Samsung Full HD 2 HDMI 1 USB Wi-Fi Integrado', 1475.54);
@@ -57,10 +53,12 @@ CREATE TABLE pedidos_produtos (
 	FOREIGN KEY(id_pedido_fk) REFERENCES pedidos(id_pedido)
 );
 
-select * from imagens;
-
 INSERT INTO clientes(nome, idade) VALUES ('Marília', 16);
 
 INSERT INTO pedidos(id_cliente_fk) VALUES (1);
 
+INSERT INTO pedidos_produtos(id_produto_fk, id_pedido_fk) VALUES (3, 1);
 
+SELECT * FROM produtos LEFT JOIN imagens on(produtos.id_produto = imagens.id_produto_fk);
+
+select * from imagens;
