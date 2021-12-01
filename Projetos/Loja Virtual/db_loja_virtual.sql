@@ -33,14 +33,34 @@ CREATE TABLE imagens(
     FOREIGN KEY(id_produto_fk) REFERENCES produtos(id_produto)
 );
 
-INSERT INTO imagens(id_produto_fk, url_imagem) VALUES (1, 'notebook_1.jpg'), (1, 'notebook_2.jpg'),
-(1, 'notebook_3.jpg');
-
+INSERT INTO imagens(id_produto_fk, url_imagem) VALUES (1, 'notebook_1.jpg'), (1, 'notebook_2.jpg'), (1, 'notebook_3.jpg');
 INSERT INTO imagens(id_produto_fk, url_imagem) VALUES (2, 'smarttv_1.jpg'), (2, 'smarttv_2.jpg');
-
 INSERT INTO imagens(id_produto_fk, url_imagem) VALUES (3, 'smartphone_1.jpg');
 
+CREATE TABLE clientes(
+	id_cliente INT NOT NULL PRIMARY KEY AUTO_INCREMENT,
+    nome VARCHAR(200) NOT NULL,
+	idade INT NOT NULL
+);
 
+CREATE TABLE pedidos(
+	id_pedido INT NOT NULL PRIMARY KEY AUTO_INCREMENT,
+    data_hora DATETIME NOT NULL DEFAULT CURRENT_TIMESTAMP,
+    id_cliente_fk INT NOT NULL,
+	FOREIGN KEY(id_cliente_fk) REFERENCES clientes(id_cliente)
+);
 
+CREATE TABLE pedidos_produtos (
+	id_produto_fk INT NOT NULL,
+	id_pedido_fk INT NOT NULL,
+	FOREIGN KEY(id_produto_fk) REFERENCES produtos(id_produto),
+	FOREIGN KEY(id_pedido_fk) REFERENCES pedidos(id_pedido)
+);
+
+select * from imagens;
+
+INSERT INTO clientes(nome, idade) VALUES ('Marília', 16);
+
+INSERT INTO pedidos(id_cliente_fk) VALUES (1);
 
 
