@@ -1,5 +1,5 @@
-CREATE DATABASE aula16;
-use aula16;
+CREATE DATABASE aula17;
+use aula17;
 
 CREATE TABLE tb_alunos (
   id_aluno int,
@@ -138,6 +138,8 @@ INSERT INTO `tb_alunos` (`id_aluno`,`nome`,`idade`,`interesse`,`email`,`estado`)
 (99,"Tara",95,"Jogos","Donec.porttitor.tellus@nonfeugiat.co.uk","DF"),
 (100,"Charissa",50,"Informática","orci@elementumduiquis.ca","AP");
 
-SELECT * FROM tb_alunos WHERE nome LIKE "S%";
+DELETE FROM tb_alunos WHERE id_aluno = 1;
+DELETE FROM tb_alunos WHERE interesse = 'saúde';
 
-UPDATE tb_alunos SET nome = 'Steven Alterado' WHERE nome = 'Steven';
+
+
