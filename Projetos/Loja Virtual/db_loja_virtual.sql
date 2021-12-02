@@ -59,7 +59,7 @@ INSERT INTO pedidos(id_cliente_fk) VALUES (1);
 
 INSERT INTO pedidos_produtos(id_produto_fk, id_pedido_fk) VALUES (3, 1);
 
-SELECT * FROM produtos LEFT JOIN imagens ON(produtos.id_produto = imagens.id_produto_fk);
+SELECT * FROM produtos LEFT JOIN descricoes_tecnincas ON(produtos.id_produto = descricoes_tecnincas.id_produto_fk);
 
 select * from clientes LEFT JOIN pedidos ON(clientes.id_cliente = pedidos.id_cliente_fk);
 
