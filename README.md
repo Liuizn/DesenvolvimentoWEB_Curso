@@ -79,7 +79,7 @@ Confira abaixo os cursos e os projetos do pacote de Desenvolvimento Web Completo
 
 ### 10 | Banco de dados MySQL ✔️
 
-- <a href="https://github.com/Liuizn/DesenvolvimentoWEB_Curso/tree/main/Projetos/ target="_blank"> Projeto Banco de Dados Loja Virtual </a>(Implementação do banco de dados de uma loja virtual)
+- <a href="https://github.com/Liuizn/DesenvolvimentoWEB_Curso/tree/main/Projetos/Loja_Virtual" target="_blank"> Projeto Banco de Dados Loja Virtual </a>(Implementação do banco de dados de uma loja virtual)
 
 
 
