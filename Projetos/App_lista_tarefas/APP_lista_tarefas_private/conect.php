@@ -7,10 +7,10 @@ class Conexao
     private $user = 'root';
     private $password = '';
 
-    public function conect (){
+    public function conect() {
         try {
             $conexao = new PDO(
-                "mysql:host=$this->$host;dbname=$this->dbname",
+                "mysql:host=$this->host;dbname=$this->dbname",
                  "$this->user",
                  "$this->password"
                 ); 

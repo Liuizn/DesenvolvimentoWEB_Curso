@@ -14,7 +14,7 @@
         public function __set($att, $value){
             $this->$att = $value;
         }
-
+ 
     }
     
 
