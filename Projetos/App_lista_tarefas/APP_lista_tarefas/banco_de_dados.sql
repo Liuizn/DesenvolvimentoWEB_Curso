@@ -2,7 +2,7 @@ create database db_tarefas;
 use db_tarefas;
 
 create table if not exists usuarios (
-    id_usuarior int not null primary key auto_increment,
+    id_usuario int not null primary key auto_increment,
     nome varchar(50) not null,
     email varchar(100) not null,
     senha varchar(40) not null
@@ -24,3 +24,6 @@ create table if not exists tarefas(
     data_cadastro datetime not null default current_timestamp
 );
 
+select * from tarefas;
+
+update tarefas set id_status = 2 where id = 9;

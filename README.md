@@ -87,9 +87,9 @@ Confira abaixo os cursos e os projetos do pacote de Desenvolvimento Web Completo
 - <a href="https://github.com/Liuizn/DesenvolvimentoWEB_Curso/tree/main/Projetos/App_Pesquisa_Endereco" target="_blank"> App Pesquisa Endereço </a>(Aprenda a realizar requisições HTTP via XMLHttpRequest para API's)
 
 
-### 12 | PHP com PDO ❌
+### 12 | PHP com PDO ✔️
 
-- App Lista de Tarefas (PHP com PDO e MySQL)
+- <a href="https://github.com/Liuizn/DesenvolvimentoWEB_Curso/tree/main/Projetos/App_lista_tarefas" target="_blank"> App Lista de Tarefas </a>(PHP com PDO e MySQL) 
 
 
 
@@ -99,7 +99,7 @@ Confira abaixo os cursos e os projetos do pacote de Desenvolvimento Web Completo
 
 
 
-### 14 | JQuery ❌
+### 14 | JQuery :hourglass:
 
 - App Dashboard (Criação de um dashboard integrando front-end, back-end e banco de dados)
 
