@@ -14,6 +14,10 @@
 
             $('input').val()
 
+            $.each($('.interesse:checked'), (i,v)=>{
+
+            }) 
+
         })
 
     </script>
@@ -29,6 +33,16 @@
         <option value="3">Facebook</option>
         <option value="4">insta</option>
     </select>
+    <br>
 
+    <p>sexo</p>
+    <input type="radio" name="sexo" class="sexo" value="f"> Feminino<br>
+    <input type="radio" name="sexo" class="sexo" value="m"> Masculino<br>
+
+    <p>interesses</p>
+    <input type="checkbox" name="interesse" value="php" class="interesse">PHP <br>
+    <input type="checkbox" name="interesse" value="js" class="interesse">JavaScript<br>
+    <input type="checkbox" name="interesse" value="angular" class="interesse">Angular<br>
+    <input type="checkbox" name="interesse" value="cs" class="interesse">C#<br>
 </body>
 </html>
