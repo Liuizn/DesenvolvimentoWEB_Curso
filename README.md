@@ -31,7 +31,7 @@ Confira abaixo os cursos e os projetos do pacote de Desenvolvimento Web Completo
 
 ### 4 | HTML5 e CSS3 - Recursos especiais ✔️
 
-- <a href="https://github.com/Liuizn/DesenvolvimentoWEB_Curso/tree//mainProjetos/Museu-Nacional" target="_blank"> Projeto Museu Nacional </a> (Página de um Museu)
+- <a href="https://github.com/Liuizn/DesenvolvimentoWEB_Curso/tree/main/Projetos/Museu-Nacional" target="_blank"> Projeto Museu Nacional </a> (Página de um Museu)
 
 ### 5 | Bootstrap 4 & Design responsivo ✔️
 
@@ -45,7 +45,7 @@ Confira abaixo os cursos e os projetos do pacote de Desenvolvimento Web Completo
 
 ### 7 | JavaScript Moderno (ECMAScript 2015 - ES6) e Orientação a Objetos ✔️
 
-- <a href="https://github.com/Liuizn/DesenvolvimentoWEB_Curso/tree/mainProjetos/App_Orcamento" target="_blank"> App Orçamento Pessoal</a> (App para controle pessoal de finanças)
+- <a href="https://github.com/Liuizn/DesenvolvimentoWEB_Curso/tree/main/Projetos/App_Orcamento" target="_blank"> App Orçamento Pessoal</a> (App para controle pessoal de finanças)
 
 ### 8 | PHP 7 ✔️
 
