@@ -1,0 +1,21 @@
+{
+    "name": "miniframework/miniframework",
+    "require": {
+        "php": ">= 7.0"
+    },
+    "authors": [{
+            "name": "Luiz Gabriel dos Santos",
+            "email": "Luizgabrielsnogueira@gmail.com"
+        },
+        {
+            "name": "Jorge Sant Ana",
+            "email": "jorge@teste.com.br"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "App\\": "App/",
+            "MF\\": "Vendor/MF/"
+        }
+    }
+}
