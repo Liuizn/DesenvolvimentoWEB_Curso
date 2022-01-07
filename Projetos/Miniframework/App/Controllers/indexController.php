@@ -9,14 +9,14 @@
         public function index()
         {
             $this->view->dados = array('teste2', 'uhu2');
-            $this->render('index');
+            $this->render('index', 'layout1');
         }
 
         public function sobreNos()
         {
 
             $this->view->dados = array('teste', 'uhu');
-            $this->render('sobreNos');
+            $this->render('sobreNos', 'layout2');
         }
     }
 ?>
