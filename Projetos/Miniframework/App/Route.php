@@ -6,7 +6,6 @@
 
     class Route extends Bootstrap {
 
-
         protected function initRoutes()
         {
             $routes['home'] = array (
