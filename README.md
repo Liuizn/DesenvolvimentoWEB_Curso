@@ -77,7 +77,7 @@ Confira abaixo os cursos e os projetos do pacote de Desenvolvimento Web Completo
 
 ### 15 | Padrão de arquitetura MVC com PHP ⌛️
 
-- Projeto miniframework (Criação de um miniframework baseado na arquitetura MVC)
+- <a href="https://github.com/Liuizn/DesenvolvimentoWEB_Curso/tree/main/Projetos/" target="_blank"> Projeto miniframework (Criação de um miniframework baseado na arquitetura MVC)
 
 ### 16 | PHP 7 & MySQL - Projeto aplicado Twitter Clone ❌
 
