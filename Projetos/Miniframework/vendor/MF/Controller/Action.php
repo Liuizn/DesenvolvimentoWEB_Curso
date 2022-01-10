@@ -26,10 +26,13 @@
         
         protected function content()
         {
-            $currentlClass = get_class($this);
-            $currentlClass = str_replace('App\\Controllers\\', '', $currentlClass);
-            $currentlClass = strtolower(str_replace('Controller', '', $currentlClass));
-            require_once "../App/Views/".$currentlClass."/".$this->view->page.".phtml";
+            $classAtual = get_class($this);
+
+            $classAtual = str_replace('App\\Controllers\\', '', $classAtual);
+
+            $classAtual = strtolower(str_replace('Controller', '', $classAtual));
+            
+            require_once "../App/Views/".$classAtual."/".$this->view->page.".phtml";
         }
     }
 ?>
