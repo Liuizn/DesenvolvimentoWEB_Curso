@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Manipulando CSS</title>
+    <script src="jquery-3.6.0.min.js"></script>
+    <style>
+        .toggled {
+            color: red;
+        }
+    </style>
+    <script>
+        $(document).ready(() => {
+
+            //Adicionando Classe ao elemento
+
+            //$(selector).addClass(className);
+            $('div').addClass('teste1')
+            
+            
+            //Verificando se existe a classe no elemento
+
+            // $(selector).hasClass(className);
+            let temClase = $('h1').hasClass('titulo')
+            if(temClase === true){
+                console.log('existe a classe')
+            }
+            else {
+                console.log('não existe a classe')
+            }
+
+            //Removendo Classe do elemento
+
+            // $(selector).removeClass(className);
+            $('p').removeClass('removido');
+
+
+            //Remove/Adiciona Classe no elemento
+
+            //$(selector).toggleClass(className, switch);
+            $('#toggleClass').click(()=>{
+                $('span').toggleClass('toggled')
+            })
+
+
+            //Manipula o CSS inline do elemento
+
+            // $(selector).css(propertyName, value);
+            $('h2').css('font-size', '40px')
+
+        })
+    </script>
+</head>
+
+<body>
+    <div class="teste">
+        <h1 class="titulo">Título</h1>
+        <h2>Subtitulo</h2>
+        <p class="removido">parágrafo</p>
+        
+        <span class="toogle">span</span>
+
+        <input type="button" value="change class" id='toggleClass'>
+    </div>
+</body>
+
+</html>
