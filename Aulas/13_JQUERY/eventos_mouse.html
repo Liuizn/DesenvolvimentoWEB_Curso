@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="jquery-3.6.0.min.js"></script>
+    <script>
+
+        //Evento onload = quando o documento estiver carregado
+        $(document).ready(() => {
+            $("#load").html("teste")
+        }) 
+        
+        //Evento scroll = quando o documento acionar o scroll do mouse
+        $(document).scroll(() =>{ 
+            $("#onscroll").html("rolei")
+        }); 
+
+    </script>
+</head>
+
+<body>
+    <p id="load"></p>
+    <p id="onscroll"></p>
+</body>
+
+</html>
