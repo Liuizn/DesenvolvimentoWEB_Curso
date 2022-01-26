@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Manipulando CSS</title>
+    <script src="jquery-3.6.0.min.js"></script>
+    <style>
+        .color__one {
+            color: red;
+        }
+        .color__two {
+            color: blue;
+        }
+    </style>
+    <script>
+        $(document).ready(() => {
+
+
+
+            //SOBRE TRIGGER
+            $('#1').click(()=>{
+                console.log('teste')
+            })
+
+            $('#2').click(()=>{
+                $('#1').trigger('click');
+            })
+
+
+            
+
+
+        })
+    </script>
+</head>
+
+<body>
+
+    <button type="button" id='1'>click</button>
+    <button type="button" id='2'>click</button>
+
+</body>
+
+</html>
