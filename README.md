@@ -71,9 +71,9 @@ Confira abaixo os cursos e os projetos do pacote de Desenvolvimento Web Completo
 
 - Publicação de aplicações web (PHP e MySQL) utilizando o InfintyFree
 
-### 14 | JQuery ⌛️
+### 14 | JQuery ✔️
 
-- App Dashboard (Criação de um dashboard integrando front-end, back-end e banco de dados)
+- <a href="https://github.com/Liuizn/DesenvolvimentoWEB_Curso/tree/main/Projetos/App_DashBoard" target="_blank"> App Dashboard </a> (Criação de um dashboard integrando front-end, back-end e banco de dados)
 
 ### 15 | Padrão de arquitetura MVC com PHP ✔️
 
