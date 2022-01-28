@@ -1,25 +1,36 @@
 $(document).ready(() => {
 
 	$("#suporte").click(()=>{ 
-        $.get("suporte.html", (data) =>{
+        $.post("suporte.html", (data) =>{
             $("#pagina").html(data)
         });
     });
 
     
     $("#documentacao").click(()=>{ 
-        $.get("documentacao.html", (data) =>{
+        $.post("documentacao.html", (data) =>{
             $("#pagina").html(data)
         });
     });
 
-    $.ajax({
-        type: "method",
-        url: "url",
-        data: "data",
-        dataType: "dataType",
-        success: function (response) {
-            
-        }
-    });
+
+    $('#selecao').change((e)=>{
+
+        let condicao = $(e.target).val()
+
+        $.ajax({
+            type: "get",
+            url: "app.php",
+            data: `competencia=${condicao}`,
+            dataType: 'json',
+            success:  (response)=>{
+                console.log(response)
+                $('#numeroVendas').html(response.numeroVendas)
+                $('#totalVendas').html(response.totalVendas)
+            }
+        });
+    })
+
 })
+
+

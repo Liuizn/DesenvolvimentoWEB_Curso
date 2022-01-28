@@ -16,7 +16,7 @@ create table tb_clientes(
 create table tb_contatos(
 	id int not null primary key auto_increment,
 	tipo_contato int not null
-);
+); 
 
 create table tb_despesas(
 	id int not null primary key auto_increment,
@@ -75,3 +75,5 @@ insert into tb_despesas(data_despesa, total)values('2018-09-01', 350.27);
 insert into tb_despesas(data_despesa, total)values('2018-09-04', 108.12);
 insert into tb_despesas(data_despesa, total)values('2018-09-20', 15.66);
 insert into tb_despesas(data_despesa, total)values('2018-10-03', 83.55);
+
+select * from tb_vendas;
