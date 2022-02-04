@@ -9,9 +9,9 @@ CREATE TABLE produtos(
 
 CREATE TABLE descricoes_tecnicas(
 	id_descricao_tecnica INT NOT NULL PRIMARY KEY AUTO_INCREMENT,
-    id_produto_fk INT NOT NULL,
-    descricao_tecnica TEXT NOT NULL,
-    FOREIGN KEY(id_produto_fk) REFERENCES produtos(id_produto)
+	id_produto_fk INT NOT NULL,
+	descricao_tecnica TEXT NOT NULL,
+	FOREIGN KEY(id_produto_fk) REFERENCES produtos(id_produto)
 );
 
 INSERT INTO produtos(produto, valor) VALUES ('Notebook Dell Inspiron Ultrafino Intel Core i7, 16GB RAM e 240GB SSD', 3500.00);
